@@ -1,0 +1,22 @@
+.root {
+
+ -fx-background-image: url("/sample/assets/stars.jpg") , url("/sample/assets/logo.png");
+-fx-background-repeat: stretch,no-repeat;
+-fx-background-size :auto,250,250;
+-fx-background-position: center, right bottom ;
+}
+.menu-bar{
+-fx-background-color: #0000FF ;
+-fx-border-color: #000;
+-fx-border-width: 2;
+}
+.menu:hover{
+-fx-border-color: #000;
+-fx-font-weight:bold;
+
+}
+
+.menu-item{
+-fx-background-color :#FF0000;
+-fx-border-color:#001;
+}
